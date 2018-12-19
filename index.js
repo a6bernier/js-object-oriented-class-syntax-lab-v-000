@@ -6,7 +6,7 @@ class BoardMember {
   {
 
   veto() = {
-    console.log('No, I must disagree')
+    console.log('No, I must disagree');
   }
   BoardMember.prototype.approve = function(){
     return 'You can do that!'
