@@ -8,8 +8,8 @@ class BoardMember {
   veto() = {
     console.log('No, I must disagree');
   }
-  BoardMember.prototype.approve = function(){
-    return 'You can do that!'
+  approve() = {
+    console.log('You can do that!')l;
   }
   BoardMember.prototype.doCharity = function(){
     return "I like to help people."
