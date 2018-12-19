@@ -15,7 +15,7 @@ class BoardMember {
     return "I like to help people."
   }
 
-  BoardMember.prototype.releasePressStatement = function(){
+  releasePressStatement() = {
     return "You will see great things from Scuber."
   }
 
